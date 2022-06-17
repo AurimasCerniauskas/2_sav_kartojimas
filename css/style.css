@@ -39,22 +39,56 @@ a{
 }
 
 /* -----Main --------- */
+.left{
+  float: left;
+  width: 40%;
+  margin-top: 30px;
+}
+.title{
+  margin-top: 0;
+  font-size: 60px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.title span{
+  display: block;
+  width: 100%;
+  font-weight: 100;
+}
+.title::after{
+  content: '';
+  width: 120px;
+  height: 3px;
+  background-color: #649;
+  display: block;
+  margin-top: 15px;
+}
+.description{
+  font-size: 20px;
+  line-height: 1.4;
+  color: #868787;
+  margin-bottom: 40px;
+}
+.right{
+  float: right;
+  width: 55%;
+}
 
 /* -----Footer--------- */
 .social{
   float: left;
 }
 .social a{
-  font-size: 30px;
+  font-size: 24px;
   color: #cbcccc;
 }
 .social a:not(:first-child){
-  margin-left: 5px;
+  margin-left: 20px;
 }
 .social a:hover{
   color: #649;
 }
 .copyright{
+  margin-top: 0;
   float: right;
   font-size: 18px;
 }
