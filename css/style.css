@@ -16,13 +16,45 @@ a{
 
 .logo{
   float: left;
+  width: 59px;
 }
 .meniu{
   float: right;
 }
 
+.meniu a{
+  font-size: 24px;
+  margin-left: 20px;
+  color: black;
+}
+.meniu a:first-child{
+  margin-left: 0;
+}
 
+.meniu a:hover{
+  background-color: lightgoldenrodyellow;
+  color: #649;
+  text-decoration: underline;
+  font-weight: bold;
+}
 
 /* -----Main --------- */
 
 /* -----Footer--------- */
+.social{
+  float: left;
+}
+.social a{
+  font-size: 30px;
+  color: #cbcccc;
+}
+.social a:not(:first-child){
+  margin-left: 5px;
+}
+.social a:hover{
+  color: #649;
+}
+.copyright{
+  float: right;
+  font-size: 18px;
+}
