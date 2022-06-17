@@ -1,0 +1,24 @@
+{
+  "name": "2_sav_kartojimas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "dead-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AurimasCerniauskas/2_sav_kartojimas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AurimasCerniauskas/2_sav_kartojimas/issues"
+  },
+  "homepage": "https://github.com/AurimasCerniauskas/2_sav_kartojimas#readme",
+  "devDependencies": {
+    "dead-server": "^1.0.6"
+  }
+}

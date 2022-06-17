@@ -1,3 +1,28 @@
 *{
   box-sizing: border-box;
 }
+.container{
+  display: inline-block;
+  width: 1000px;
+  margin: 0 calc((100% - 1000px) / 2);
+  margin-top: 60px;
+}
+
+a{
+  text-decoration: none;
+}
+
+/*----- Headeris -------*/
+
+.logo{
+  float: left;
+}
+.meniu{
+  float: right;
+}
+
+
+
+/* -----Main --------- */
+
+/* -----Footer--------- */
